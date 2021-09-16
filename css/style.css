@@ -1,148 +1,152 @@
 body {
-    background-color:lightcyan;
+    background-color: rgb(250, 248, 240);
     font-family: Microsoft JhengHei;
+   
 }
 
 .banner {
-    background-color: #44516F;
-    color: lightgreen;
-    font-size: 64px;
-    height: 140px;
-    border-radius: 20px;
-    padding: 20px;
-    line-height: 140px;
+    background-color: #44516f;
+    color:lightgreen;
+    height: 100px;
+    font-size: 48px;
+    border-radius: 10px;
+    /* top/bottom  left/right */
+    padding: 10px 20px;
+    margin: 10px;
+    /* 水平 */
     text-align: center;
+    /* 垂直 */
+    line-height: 100px;
 }
 
 #container {
     width: 80%;
-    margin: 20px auto;
+    margin: 0px auto;
+    
 }
 
-.text-1 {
+.text-1{
     font-size: 24px;
     font-weight: bold;
     padding: 0px 20px;
 }
 
-.text-2 {
+.text-2{
     background-color: tomato;
-    color: yellow;
-    padding: 10px;
-    border: 2px salmon solid;
-}
-
-.text-3 {
-    border-radius: 5px;
-    color: pink;
-    padding: 20px;
-}
-
-.wording {
-    font-size: 32px;
-    margin-left: 10px;
-    color: white;
-}
-
-#picture {
-    text-align: center;
-    clear:both;
-}
-
-#picture img {
-    border-radius: 10px;
-    margin: 0px 10px;    
-}
-
-.sub-title {
-    background-color: #4f5e80;
-    border-radius: 10px;
-    color: white;
-    padding: 5px;
-    padding-left: 10px;
-}
-
-.block-1 {
-    text-align: center;
-    font-size: 24px;
-    font-family: sans-serif;
-}
-
-.block-1 img {
-    width: 100%;
-}
-
-.block-1 ol {
-    list-style-type: none;
-    border: 1px dashed cadetblue;
-    padding: 10px 0px;
-}
-
-.block-1 li {
-    background-color: chartreuse;
-}
-
-.block-2 {
-    font-size: 24px;
-    background-color: antiquewhite;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-
-table{
-    margin: 0px auto;
-    width: 90%;
-    height: 600px;  
-}
-
-th{
-    background-color: cornsilk;
-    font-size: 32px;
-    color:brown;
-}
-
-tr{
-    background-color: hotpink;
-    font-size: 24px;
-    text-align: center;
-    color:white;
-}
-
-
-.block-3{
-    background-color: lightpink;
-    padding: 60px;
-    text-align: center;
-}
-
-input,button,textarea{
-    font-size: 24px;
-    padding: 10px;
-    width: 300px;
-    min-width: 30%;
-}
-
-form{
-    
-    background-color: brown;
-    margin: 10px auto;
-    padding:30px;
-    color:white;
-    text-align: center;
-    border-radius: 10px;
-}
-
-
-
-#idol{
+    color:yellow;
+    border: 2px solid salmon;
     padding:10px;
 }
 
+.text-3{
+    border-radius: 5px;
+    color:pink;
+    padding:20px;
+}
+
+.wording{
+    color:white;
+    font-size: 32px;
+}
+
+#picture{
+    text-align: center;
+}
+
+#picture img{
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.sub-title{
+    background-color: #44516f;
+    border-radius: 10px;
+    color:white;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.block-1{
+    text-align: center;
+}
+
+.block-1 img{
+    width: 100%;
+}
+
+.block-1 ol{
+    list-style-type: none;
+    border: 2px dashed cornflowerblue;
+    padding: 10px;
+}
+
+.block-2{
+    font-size: 20px;
+    font-style: italic;
+    background-color: rgb(253, 221, 211);
+    border-radius: 10px;
+    padding: 10px;
+    color:firebrick;
+}
+
+.block-2 a{
+    color:goldenrod;
+}
+
+.block-3 table{
+    border:2px solid black;
+    width: 90%;
+    margin: 0px auto;
+    height: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.block-3 th{
+    background-color:cornsilk;
+}
+
+.block-3 tr{
+    background-color: pink;
+    /* text-align: center; */
+    font-size: 16px;
+}
+
+.block-4{
+    background-color: rgb(245, 204, 204);
+    padding: 20px;
+    text-align: center;
+}
+
+form{
+    padding: 20px 0px;
+    background-color: lightcoral;
+}
+
+input,label,textarea,button{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    width: 100px;
+    background-color: green;
+    color:white;
+}
+
+.footer{
+    text-align: center;
+}
+
+#idol{
+    padding: 20px;
+    
+}
+
 #idol img{
-    float:left; 
-    margin: 10px;
-    width:50%;
+    border-radius: 10px;
+    float:right;
+    margin: 20px;
 }
 
 
